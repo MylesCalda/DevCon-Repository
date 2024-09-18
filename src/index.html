@@ -3,19 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
     <link rel="stylesheet" href="styles.css">
+    <title>Profile Page</title>
 </head>
 <body>
-    <div class="login-container">
-        <h2>Login</h2>
-        <form id="loginForm">
-            <input type="text" id="username" placeholder="Username" required>
-            <input type="password" id="password" placeholder="Password" required>
-            <button type="submit">Login</button>
-        </form>
-        <div id="error" class="error-message"></div>
+    <div class="profile-card">
+        <img src="profile-pic.jpg" alt="Profile Picture" class="profile-pic">
+        <h1 class="name">John Doe</h1>
+        <p class="title">Web Developer</p>
+        <p class="bio">Enthusiastic web developer with a passion for creating interactive applications and experiences on the web.</p>
+        <div class="social-links">
+            <a href="https://github.com/johndoe" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/johndoe" target="_blank">LinkedIn</a>
+            <a href="https://twitter.com/johndoe" target="_blank">Twitter</a>
+        </div>
     </div>
-    <script src="script.js"></script>
 </body>
 </html>
